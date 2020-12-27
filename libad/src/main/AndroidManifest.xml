@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.actduck.libad">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+
+  <application>
+    <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    <!-- todo 改成自己的ID-->
+    <meta-data
+      android:name="com.google.android.gms.ads.APPLICATION_ID"
+      android:value="@string/admob_app_id" />
+  </application>
+</manifest>

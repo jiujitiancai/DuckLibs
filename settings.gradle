@@ -1,0 +1,3 @@
+include ':libad'
+include ':app'
+rootProject.name = "DuckLibs"

@@ -1,0 +1,16 @@
+<resources>
+<!--  GG_ADMOB-->
+  <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+  <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+  <string name="admob_interstitial1">ca-app-pub-3940256099942544/1033173712</string>
+  <string name="admob_interstitial2">ca-app-pub-3940256099942544/1033173712</string>
+  <string name="admob_reward">ca-app-pub-3940256099942544/5224354917</string>
+  <string name="admob_native">ca-app-pub-3940256099942544/1044960115</string>
+  <string name="admob_splash">ca-app-pub-3940256099942544/1033173712</string>
+
+<!--  配置-->
+  <integer name="play_times">-1</integer>
+  <bool name="show_ads">true</bool>
+
+
+</resources>

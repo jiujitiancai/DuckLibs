@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:id="@+id/next_ads_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#15202b"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/next_ads_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/next_ads_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/next_ads_icon"
+            android:textSize="14sp"
+            android:text="Remove ads?"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/next_ads_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/next_ads_title"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:text="Purchase the Gold version to remove ads and support the future development."
+            android:layout_toRightOf="@id/next_ads_icon"
+            android:gravity="center_vertical"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="1px"
+            android:text="Advertisement"
+            android:textSize="8sp" />
+
+
+    </RelativeLayout>
+</FrameLayout>
